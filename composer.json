@@ -1,0 +1,35 @@
+{
+    "name": "expressphp/express",
+    "description": "PHP web framework like express for Node.js",
+    "type": "library",
+    "keywords": [
+        "router",
+        "routing",
+        "express"
+    ],
+    "license": "MIT",
+    "version": "v0.0.0",
+    "minimum-stability": "dev",
+    "homepage": "https://github.com/expressphp/express",
+    "authors": [
+        {
+            "name": "Zakhar Bykov",
+            "email": "zak.bykov@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": {
+      "packagist": {
+        "type": "composer",
+        "url": "https://packagist.org/packages/{user-name}/{package-name}"
+      }
+    },
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Express\\": "src/"
+        }
+    }
+}
